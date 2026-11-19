@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用 Rust 写服务的第一年 - 林知远的技术笔记</title>
+<meta name="description" content="从 Go 迁到 Rust 的一年里，我踩过的坑和真正得到的好处。">
+<meta name="robots" content="noindex">
+<style>
+:root { color-scheme: light dark; }
+body { margin: 0 auto; max-width: 720px; padding: 24px 16px; font: 16px/1.75 system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #fdfdfb; color: #222; }
+@media (prefers-color-scheme: dark) { body { background: #1b1b1d; color: #e6e6e6; } a { color: #8ab4f8; } }
+header nav a { margin-right: 12px; }
+.fixture-note { border: 1px dashed #c33; padding: 8px 12px; font-size: 14px; color: #c33; }
+footer { margin-top: 40px; font-size: 13px; opacity: .7; }
+</style>
+</head>
+<body>
+<header><p><strong>林知远的技术笔记</strong></p><nav><a href="/">首页</a><a href="/posts/">文章</a><a href="/about/">关于我</a><a href="/feed.xml">RSS</a></nav></header>
+<p class="fixture-note">本站为 Aidou 自动化测试固定数据，非真实个人博客。文中人物「林知远」为虚构角色。</p>
+<main>
+<article>
+<h1>用 Rust 写服务的第一年</h1>
+<p><time datetime="2026-10-28">2026-10-28</time> · 林知远</p>
+<p>团队从 Go 迁到 Rust 已经满一年了。很多人问我值不值得，我的回答是：值得，但不是因为性能。</p>
+<p>我常说：“Rust 最大的价值是让你在写代码的时候就把并发问题想清楚。”编译器会逼着你回答谁拥有这块数据、谁能修改它，这些问题在 Go 里往往要等到线上才暴露。</p>
+<p>当然代价也很真实。头三个月大家的开发速度掉了一半，生命周期报错让不少人怀疑人生。我当时在周会上说：“慢下来是正常的，我们在还以前欠下的债。”</p>
+<p>一年下来，线上因为数据竞争导致的故障是零。我的结论是：“选语言就是选你愿意在哪个阶段付出代价。”</p>
+</article>
+</main>
+<footer><p>本站为 Aidou 自动化测试固定数据，非真实个人博客。文中人物「林知远」为虚构角色。</p></footer>
+</body>
+</html>
